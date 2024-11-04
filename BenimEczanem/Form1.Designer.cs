@@ -302,7 +302,7 @@
             txtEczaneAdi.Multiline = true;
             txtEczaneAdi.Name = "txtEczaneAdi";
             txtEczaneAdi.Size = new Size(225, 27);
-            txtEczaneAdi.TabIndex = 17;
+            txtEczaneAdi.TabIndex = 0;
             // 
             // label18
             // 
@@ -321,7 +321,7 @@
             txtIsTelefonu.Multiline = true;
             txtIsTelefonu.Name = "txtIsTelefonu";
             txtIsTelefonu.Size = new Size(242, 27);
-            txtIsTelefonu.TabIndex = 33;
+            txtIsTelefonu.TabIndex = 17;
             // 
             // txtTckn
             // 
@@ -330,7 +330,7 @@
             txtTckn.Multiline = true;
             txtTckn.Name = "txtTckn";
             txtTckn.Size = new Size(225, 27);
-            txtTckn.TabIndex = 34;
+            txtTckn.TabIndex = 1;
             // 
             // txtAdi
             // 
@@ -339,7 +339,7 @@
             txtAdi.Multiline = true;
             txtAdi.Name = "txtAdi";
             txtAdi.Size = new Size(225, 27);
-            txtAdi.TabIndex = 35;
+            txtAdi.TabIndex = 2;
             // 
             // txtSoyadi
             // 
@@ -348,7 +348,7 @@
             txtSoyadi.Multiline = true;
             txtSoyadi.Name = "txtSoyadi";
             txtSoyadi.Size = new Size(223, 27);
-            txtSoyadi.TabIndex = 36;
+            txtSoyadi.TabIndex = 3;
             // 
             // txtVergiDairesi
             // 
@@ -357,7 +357,7 @@
             txtVergiDairesi.Multiline = true;
             txtVergiDairesi.Name = "txtVergiDairesi";
             txtVergiDairesi.Size = new Size(225, 27);
-            txtVergiDairesi.TabIndex = 37;
+            txtVergiDairesi.TabIndex = 7;
             // 
             // comboBox1
             // 
@@ -366,7 +366,7 @@
             comboBox1.Location = new Point(94, 252);
             comboBox1.Name = "comboBox1";
             comboBox1.Size = new Size(223, 21);
-            comboBox1.TabIndex = 38;
+            comboBox1.TabIndex = 5;
             // 
             // comboBox2
             // 
@@ -375,7 +375,7 @@
             comboBox2.Location = new Point(94, 277);
             comboBox2.Name = "comboBox2";
             comboBox2.Size = new Size(223, 21);
-            comboBox2.TabIndex = 39;
+            comboBox2.TabIndex = 6;
             // 
             // txtVergiNo
             // 
@@ -384,7 +384,7 @@
             txtVergiNo.Multiline = true;
             txtVergiNo.Name = "txtVergiNo";
             txtVergiNo.Size = new Size(225, 27);
-            txtVergiNo.TabIndex = 40;
+            txtVergiNo.TabIndex = 8;
             // 
             // txtAdres
             // 
@@ -393,7 +393,7 @@
             txtAdres.Multiline = true;
             txtAdres.Name = "txtAdres";
             txtAdres.Size = new Size(221, 78);
-            txtAdres.TabIndex = 41;
+            txtAdres.TabIndex = 4;
             // 
             // txtOdaSicili
             // 
@@ -402,7 +402,7 @@
             txtOdaSicili.Multiline = true;
             txtOdaSicili.Name = "txtOdaSicili";
             txtOdaSicili.Size = new Size(225, 27);
-            txtOdaSicili.TabIndex = 42;
+            txtOdaSicili.TabIndex = 9;
             // 
             // txtBolgesi
             // 
@@ -411,7 +411,7 @@
             txtBolgesi.Multiline = true;
             txtBolgesi.Name = "txtBolgesi";
             txtBolgesi.Size = new Size(225, 27);
-            txtBolgesi.TabIndex = 43;
+            txtBolgesi.TabIndex = 10;
             // 
             // txtMersis
             // 
@@ -420,7 +420,7 @@
             txtMersis.Multiline = true;
             txtMersis.Name = "txtMersis";
             txtMersis.Size = new Size(225, 27);
-            txtMersis.TabIndex = 44;
+            txtMersis.TabIndex = 12;
             // 
             // txtTicaretSicil
             // 
@@ -429,7 +429,7 @@
             txtTicaretSicil.Multiline = true;
             txtTicaretSicil.Name = "txtTicaretSicil";
             txtTicaretSicil.Size = new Size(225, 27);
-            txtTicaretSicil.TabIndex = 45;
+            txtTicaretSicil.TabIndex = 13;
             // 
             // txtMMtckn
             // 
@@ -438,7 +438,7 @@
             txtMMtckn.Multiline = true;
             txtMMtckn.Name = "txtMMtckn";
             txtMMtckn.Size = new Size(184, 27);
-            txtMMtckn.TabIndex = 46;
+            txtMMtckn.TabIndex = 14;
             // 
             // txtMMAdi
             // 
@@ -447,7 +447,7 @@
             txtMMAdi.Multiline = true;
             txtMMAdi.Name = "txtMMAdi";
             txtMMAdi.Size = new Size(184, 27);
-            txtMMAdi.TabIndex = 47;
+            txtMMAdi.TabIndex = 15;
             // 
             // label10
             // 
@@ -468,7 +468,7 @@
             txtMMSoyadi.Multiline = true;
             txtMMSoyadi.Name = "txtMMSoyadi";
             txtMMSoyadi.Size = new Size(180, 27);
-            txtMMSoyadi.TabIndex = 49;
+            txtMMSoyadi.TabIndex = 16;
             // 
             // label19
             // 
@@ -489,7 +489,7 @@
             txtEposta.Multiline = true;
             txtEposta.Name = "txtEposta";
             txtEposta.Size = new Size(225, 27);
-            txtEposta.TabIndex = 51;
+            txtEposta.TabIndex = 11;
             // 
             // button1
             // 
@@ -504,7 +504,7 @@
             button1.Margin = new Padding(0);
             button1.Name = "button1";
             button1.Size = new Size(129, 47);
-            button1.TabIndex = 52;
+            button1.TabIndex = 38;
             button1.Text = "Kaydet";
             button1.UseVisualStyleBackColor = false;
             button1.Click += button1_Click;
@@ -708,7 +708,7 @@
             txtCep.Multiline = true;
             txtCep.Name = "txtCep";
             txtCep.Size = new Size(242, 27);
-            txtCep.TabIndex = 69;
+            txtCep.TabIndex = 18;
             // 
             // txtFaks
             // 
@@ -717,7 +717,7 @@
             txtFaks.Multiline = true;
             txtFaks.Name = "txtFaks";
             txtFaks.Size = new Size(242, 27);
-            txtFaks.TabIndex = 70;
+            txtFaks.TabIndex = 19;
             // 
             // txtGLN
             // 
@@ -726,7 +726,7 @@
             txtGLN.Multiline = true;
             txtGLN.Name = "txtGLN";
             txtGLN.Size = new Size(242, 27);
-            txtGLN.TabIndex = 71;
+            txtGLN.TabIndex = 20;
             // 
             // txtIts
             // 
@@ -736,7 +736,7 @@
             txtIts.Name = "txtIts";
             txtIts.PasswordChar = '*';
             txtIts.Size = new Size(242, 27);
-            txtIts.TabIndex = 72;
+            txtIts.TabIndex = 21;
             // 
             // txtItsSifre
             // 
@@ -746,7 +746,7 @@
             txtItsSifre.Name = "txtItsSifre";
             txtItsSifre.PasswordChar = '*';
             txtItsSifre.Size = new Size(242, 27);
-            txtItsSifre.TabIndex = 73;
+            txtItsSifre.TabIndex = 22;
             // 
             // txtMail
             // 
@@ -755,7 +755,7 @@
             txtMail.Multiline = true;
             txtMail.Name = "txtMail";
             txtMail.Size = new Size(242, 27);
-            txtMail.TabIndex = 74;
+            txtMail.TabIndex = 23;
             // 
             // txtSgkSicil
             // 
@@ -765,7 +765,7 @@
             txtSgkSicil.Name = "txtSgkSicil";
             txtSgkSicil.PasswordChar = '*';
             txtSgkSicil.Size = new Size(242, 27);
-            txtSgkSicil.TabIndex = 75;
+            txtSgkSicil.TabIndex = 24;
             // 
             // ttxtSgkSifre
             // 
@@ -775,7 +775,7 @@
             ttxtSgkSifre.Name = "ttxtSgkSifre";
             ttxtSgkSifre.PasswordChar = '*';
             ttxtSgkSifre.Size = new Size(242, 27);
-            ttxtSgkSifre.TabIndex = 76;
+            ttxtSgkSifre.TabIndex = 25;
             // 
             // txtSaglikM
             // 
@@ -784,7 +784,7 @@
             txtSaglikM.Multiline = true;
             txtSaglikM.Name = "txtSaglikM";
             txtSaglikM.Size = new Size(242, 27);
-            txtSaglikM.TabIndex = 77;
+            txtSaglikM.TabIndex = 26;
             // 
             // txtFarmainbox
             // 
@@ -793,7 +793,7 @@
             txtFarmainbox.Multiline = true;
             txtFarmainbox.Name = "txtFarmainbox";
             txtFarmainbox.Size = new Size(242, 27);
-            txtFarmainbox.TabIndex = 78;
+            txtFarmainbox.TabIndex = 27;
             // 
             // txtIban
             // 
@@ -802,7 +802,7 @@
             txtIban.Multiline = true;
             txtIban.Name = "txtIban";
             txtIban.Size = new Size(242, 27);
-            txtIban.TabIndex = 79;
+            txtIban.TabIndex = 28;
             // 
             // txtMDSsifre
             // 
@@ -811,7 +811,7 @@
             txtMDSsifre.Multiline = true;
             txtMDSsifre.Name = "txtMDSsifre";
             txtMDSsifre.Size = new Size(242, 27);
-            txtMDSsifre.TabIndex = 80;
+            txtMDSsifre.TabIndex = 29;
             // 
             // txtUtsToken
             // 
@@ -820,7 +820,7 @@
             txtUtsToken.Multiline = true;
             txtUtsToken.Name = "txtUtsToken";
             txtUtsToken.Size = new Size(242, 27);
-            txtUtsToken.TabIndex = 81;
+            txtUtsToken.TabIndex = 30;
             // 
             // txtUtsNumarasi
             // 
@@ -829,7 +829,7 @@
             txtUtsNumarasi.Multiline = true;
             txtUtsNumarasi.Name = "txtUtsNumarasi";
             txtUtsNumarasi.Size = new Size(242, 27);
-            txtUtsNumarasi.TabIndex = 82;
+            txtUtsNumarasi.TabIndex = 31;
             // 
             // txtGıbKullAdi
             // 
@@ -838,7 +838,7 @@
             txtGıbKullAdi.Multiline = true;
             txtGıbKullAdi.Name = "txtGıbKullAdi";
             txtGıbKullAdi.Size = new Size(242, 27);
-            txtGıbKullAdi.TabIndex = 83;
+            txtGıbKullAdi.TabIndex = 32;
             // 
             // txtGıbSifre
             // 
@@ -847,7 +847,7 @@
             txtGıbSifre.Multiline = true;
             txtGıbSifre.Name = "txtGıbSifre";
             txtGıbSifre.Size = new Size(242, 27);
-            txtGıbSifre.TabIndex = 84;
+            txtGıbSifre.TabIndex = 33;
             // 
             // textBox33
             // 
@@ -871,7 +871,7 @@
             button2.Margin = new Padding(0);
             button2.Name = "button2";
             button2.Size = new Size(119, 33);
-            button2.TabIndex = 86;
+            button2.TabIndex = 39;
             button2.Text = "Aç";
             button2.UseVisualStyleBackColor = false;
             // 
@@ -882,7 +882,7 @@
             button3.Location = new Point(434, 583);
             button3.Name = "button3";
             button3.Size = new Size(120, 33);
-            button3.TabIndex = 87;
+            button3.TabIndex = 40;
             button3.Text = "Şifre Belirle";
             button3.UseVisualStyleBackColor = true;
             // 
@@ -969,6 +969,7 @@
             ForeColor = Color.Red;
             FormBorderStyle = FormBorderStyle.FixedSingle;
             Name = "Form1";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = " Eczane Bilgilerim";
             WindowState = FormWindowState.Minimized;
             ResumeLayout(false);

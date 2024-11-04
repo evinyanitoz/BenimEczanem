@@ -13,16 +13,17 @@ namespace BenimEczanem
            
             try
             {
-                using (var olustur = File.CreateText(Application.StartupPath + "/eczanem.txt")) { 
+                using (var olustur = File.CreateText(Application.StartupPath + "/eczanem.txt")) {
 
-                foreach (Control ctrl in this.Controls)
+                    olustur.WriteLine($"ECZANE BÝLGÝLERÝM---------{txtEczaneAdi.Text} ECZANESÝ");
+                    foreach (Control ctrl in this.Controls)
                 {
                     if (ctrl is TextBox)
                     {
                         // TextBox'larýn deðerini al
                         string textBoxValue = ctrl.Text;
                             if(textBoxValue!=null &  textBoxValue != "") { 
-                        olustur.WriteLine($"ECZANE BÝLGÝLERÝM: {textBoxValue}");
+                        olustur.WriteLine($"{textBoxValue}");
                             }
 
                         }
