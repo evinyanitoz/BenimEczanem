@@ -7,16 +7,31 @@ namespace BenimEczanem
             InitializeComponent();
         }
 
-     
+
         private void button1_Click(object sender, EventArgs e)
         {
-            var olustur = File.CreateText(Application.StartupPath+ "/eczanem.txt");
-            olustur.WriteLine($"Eczane Adý:{txtEczaneAdi.Text} Tckn:{txtTckn.Text}" +
-                $"Eczane  Adý:{txtAdi.Text} Soyadý:{txtSoyadi.Text} Adres: {txtAdres.Text}" +
-                $"Ýlçesi: Ýli: Vergi Dairesi:{txtVergiDairesi.Text} Vergi No:{txtVergiNo.Text}" +
-                $"Oda Sicili:{txtOdaSicili.Text} Bölgesi: {txtBolgesi.Text}");
-            olustur.Close();
-            MessageBox.Show("Kaydedildi");
+           
+            try
+            {
+                using (var olustur = File.CreateText(Application.StartupPath + "/eczanem.txt")) { 
+
+                foreach (Control ctrl in this.Controls)
+                {
+                    if (ctrl is TextBox)
+                    {
+                        // TextBox'larýn deðerini al
+                        string textBoxValue = ctrl.Text;
+                            if(textBoxValue!=null &  textBoxValue != "") { 
+                        olustur.WriteLine($"ECZANE BÝLGÝLERÝM: {textBoxValue}");
+                            }
+
+                        }
+                }
+            }
+                MessageBox.Show("Kaydedildi");
+            }
+            catch { }
+        
         }
     }
 }
