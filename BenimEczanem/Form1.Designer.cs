@@ -51,8 +51,8 @@
             txtAdi = new TextBox();
             txtSoyadi = new TextBox();
             txtVergiDairesi = new TextBox();
-            comboBox1 = new ComboBox();
-            comboBox2 = new ComboBox();
+            cmbIl = new ComboBox();
+            cmbIlce = new ComboBox();
             txtVergiNo = new TextBox();
             txtAdres = new TextBox();
             txtOdaSicili = new TextBox();
@@ -181,7 +181,7 @@
             label7.AutoSize = true;
             label7.Font = new Font("Microsoft Sans Serif", 8.25F, FontStyle.Bold);
             label7.ForeColor = Color.Red;
-            label7.Location = new Point(24, 257);
+            label7.Location = new Point(43, 280);
             label7.Name = "label7";
             label7.Size = new Size(37, 13);
             label7.TabIndex = 6;
@@ -193,7 +193,7 @@
             label8.AutoSize = true;
             label8.Font = new Font("Microsoft Sans Serif", 8.25F, FontStyle.Bold);
             label8.ForeColor = Color.Red;
-            label8.Location = new Point(41, 287);
+            label8.Location = new Point(74, 252);
             label8.Name = "label8";
             label8.Size = new Size(17, 13);
             label8.TabIndex = 7;
@@ -359,23 +359,23 @@
             txtVergiDairesi.Size = new Size(225, 27);
             txtVergiDairesi.TabIndex = 7;
             // 
-            // comboBox1
+            // cmbIl
             // 
-            comboBox1.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
-            comboBox1.FormattingEnabled = true;
-            comboBox1.Location = new Point(94, 252);
-            comboBox1.Name = "comboBox1";
-            comboBox1.Size = new Size(223, 21);
-            comboBox1.TabIndex = 5;
+            cmbIl.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
+            cmbIl.FormattingEnabled = true;
+            cmbIl.Location = new Point(94, 252);
+            cmbIl.Name = "cmbIl";
+            cmbIl.Size = new Size(223, 21);
+            cmbIl.TabIndex = 5;
             // 
-            // comboBox2
+            // cmbIlce
             // 
-            comboBox2.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
-            comboBox2.FormattingEnabled = true;
-            comboBox2.Location = new Point(94, 277);
-            comboBox2.Name = "comboBox2";
-            comboBox2.Size = new Size(223, 21);
-            comboBox2.TabIndex = 6;
+            cmbIlce.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
+            cmbIlce.FormattingEnabled = true;
+            cmbIlce.Location = new Point(94, 277);
+            cmbIlce.Name = "cmbIlce";
+            cmbIlce.Size = new Size(223, 21);
+            cmbIlce.TabIndex = 6;
             // 
             // txtVergiNo
             // 
@@ -874,6 +874,7 @@
             button2.TabIndex = 39;
             button2.Text = "Aç";
             button2.UseVisualStyleBackColor = false;
+            button2.Click += button2_Click;
             // 
             // button3
             // 
@@ -885,6 +886,7 @@
             button3.TabIndex = 40;
             button3.Text = "Şifre Belirle";
             button3.UseVisualStyleBackColor = true;
+            button3.Click += button3_Click;
             // 
             // Form1
             // 
@@ -940,8 +942,8 @@
             Controls.Add(txtOdaSicili);
             Controls.Add(txtAdres);
             Controls.Add(txtVergiNo);
-            Controls.Add(comboBox2);
-            Controls.Add(comboBox1);
+            Controls.Add(cmbIlce);
+            Controls.Add(cmbIl);
             Controls.Add(txtVergiDairesi);
             Controls.Add(txtSoyadi);
             Controls.Add(txtAdi);
@@ -968,10 +970,12 @@
             Font = new Font("Microsoft Sans Serif", 8.25F, FontStyle.Bold);
             ForeColor = Color.Red;
             FormBorderStyle = FormBorderStyle.FixedSingle;
+            KeyPreview = true;
             Name = "Form1";
             StartPosition = FormStartPosition.CenterScreen;
             Text = " Eczane Bilgilerim";
             WindowState = FormWindowState.Minimized;
+            Load += Form1_Load;
             ResumeLayout(false);
             PerformLayout();
         }
@@ -1001,8 +1005,8 @@
         private TextBox txtAdi;
         private TextBox txtSoyadi;
         private TextBox txtVergiDairesi;
-        private ComboBox comboBox1;
-        private ComboBox comboBox2;
+        private ComboBox cmbIl;
+        private ComboBox cmbIlce;
         private TextBox txtVergiNo;
         private TextBox txtAdres;
         private TextBox txtOdaSicili;
