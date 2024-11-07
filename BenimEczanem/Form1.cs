@@ -1,5 +1,7 @@
 
 
+using BenimEczanem.Entity;
+
 namespace BenimEczanem
 {
     public partial class Form1 : Form
@@ -13,8 +15,8 @@ namespace BenimEczanem
         {
 
             try
-            {
-                using (var olustur = File.CreateText(Application.StartupPath + "/eczanem.txt"))
+            {  
+                using (var olustur = File.CreateText(Application.StartupPath + "/eczanem.txt"))  //Verilerin kaydedileceði yolu belirle.
                 {
 
                     olustur.WriteLine($"ECZANE BÝLGÝLERÝM---------{txtEczaneAdi.Text} ECZANESÝ");
@@ -53,13 +55,14 @@ namespace BenimEczanem
         }
 
         private void Form1_Load(object sender, EventArgs e)
-        { 
-            BenimEczanemContext benimEczanemContext  =new BenimEczanemContext();
-            il il=new il();
-            ilDal ilDal = new ilDal();
-            cmbIl.DataSource = ilDal.SehirListele();
-            cmbIl.DisplayMember= "Name";
+        {    
+            ilDal  il=new ilDal();
+      
+            cmbIl.DataSource = il.SehirListele();
             cmbIl.ValueMember = "Id";
+            cmbIl.DisplayMember = "SehirAdi";
+
+
         }
     }
 }

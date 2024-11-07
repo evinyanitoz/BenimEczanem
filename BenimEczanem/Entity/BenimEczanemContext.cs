@@ -5,11 +5,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace BenimEczanem
+namespace BenimEczanem.Entity
 {
-    public class BenimEczanemContext:DbContext
+    public class BenimEczanemContext : DbContext
     {
-    
+
         public DbSet<il> il { get; set; }
         public DbSet<ilce> ilce { get; set; }
     }
